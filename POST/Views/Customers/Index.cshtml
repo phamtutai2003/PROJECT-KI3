@@ -1,0 +1,87 @@
+﻿@model IEnumerable<POST.Models.Customer>
+
+@{
+    ViewData["Title"] = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+    <p style="    margin-left: 30px;">
+        <a asp-action="Create">Create New</a>
+    </p>
+    <form asp-controller="Customers" asp-action="Index" method="get">
+        <p>
+            Name: <input type="text" name="SearchString" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
+
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0"><span class="fa fa-users"></span> Customers List</h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Customers</li>
+                    </ol>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card card-info elevation-2">
+                <div class="col-md-12">
+                    <table id="example1" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Full Name</th>
+                                <th>Contact</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Username</th>
+                                <th>Password</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null)
+                            {
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Name</td>
+                                        <td>@item.Contact</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.Address</td>
+                                        <td>@item.UserName</td>
+                                        <td>@item.Password</td>
+
+                                        <td><span class="badge bg-success">@item.Status</span></td>
+                                        <td class="text-right">
+                                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>

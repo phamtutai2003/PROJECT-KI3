@@ -1,0 +1,669 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\POST.bundle.scp.css",
+      "PackagePath": "staticwebassets\\POST.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\img\\profile.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\profile.png"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\img\\sent.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sent.png"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-bs4\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-bs4\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-bs4\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-bs4\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-bs4\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-bs4\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-bs4\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-bs4\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\css\\buttons.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\css\\buttons.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\css\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\css\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.colVis.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.colVis.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.flash.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.flash.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.html5.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.print.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-buttons\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-buttons\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-responsive\\css\\responsive.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-responsive\\css\\responsive.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-responsive\\css\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-responsive\\css\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-responsive\\js\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-responsive\\js\\dataTables.responsive.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-responsive\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-responsive\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-responsive\\js\\responsive.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-responsive\\js\\responsive.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables-responsive\\js\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables-responsive\\js\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\Admin\\tables\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tables\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\css\\style.css",
+      "PackagePath": "staticwebassets\\User\\css\\style.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\feature.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\feature.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\map.png",
+      "PackagePath": "staticwebassets\\User\\img\\map.png"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\service-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\service-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\service-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\service-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\service-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\service-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\service-4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\service-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\service-5.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\service-5.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\service-6.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\service-6.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\js\\main.js",
+      "PackagePath": "staticwebassets\\User\\js\\main.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\User\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\User\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\User\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\User\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\User\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.POST.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.POST.props",
+      "PackagePath": "build\\POST.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.POST.props",
+      "PackagePath": "buildMultiTargeting\\POST.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.POST.props",
+      "PackagePath": "buildTransitive\\POST.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
