@@ -10,5 +10,7 @@
         public ICollection<Shipping> Shippings { get; set; }
         public ICollection<Customer> Customers { get; set; }
         public ICollection<Payment> Payments { get; set; }
+       
     }
+    
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Logistica - Shipping Company Website Template</title>
+    <title>Postal Service</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -42,7 +42,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
         <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <h2 class="mb-2 text-white">Logistica</h2>
+            <h2 class="mb-2 text-white">Postal Service</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -51,11 +51,9 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a asp-area="User" asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Home</a>
                 <a asp-area="User" asp-controller="Home" asp-action="About" class="nav-item nav-link">About</a>
-                <a asp-area="User" asp-controller="Home" asp-action="Services" class="nav-item nav-link">
-                    Services</a>
-                   
+                <a asp-area="User" asp-controller="Home" asp-action="Services" class="nav-item nav-link"> Services</a>
                 <div class="nav-item dropdown">
-                        <a asp-area="User" asp-controller="Home" asp-action="Pages" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <a asp-area="User" asp-controller="Home" asp-action="Pages" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a asp-area="User" asp-controller="Home" asp-action="Pricing_Plan" class="dropdown-item">Pricing Plan</a>
                             <a asp-area="User" asp-controller="Home" asp-action="Features" class="dropdown-item">Features</a>
@@ -66,6 +64,7 @@
                     </div>
                 </div>
                     <a asp-area="User" asp-controller="Home" asp-action="Contact" class="nav-item nav-link">Contact</a>
+                    <a asp-area="Customer1" asp-controller="Shipments" asp-action="Index" class="nav-item nav-link"> Check</a>
             </div>
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4>
         </div>
@@ -103,14 +102,12 @@
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">Check</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                   
                 </div>
             </div>
         </div>

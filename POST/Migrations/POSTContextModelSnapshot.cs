@@ -42,6 +42,9 @@ namespace POST.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("LoginId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -62,9 +65,32 @@ namespace POST.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("LoginId");
+
                     b.HasIndex("ShipmentId");
 
                     b.ToTable("Customer");
+                });
+
+            modelBuilder.Entity("POST.Models.Login", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Login");
                 });
 
             modelBuilder.Entity("POST.Models.Payment", b =>
@@ -111,6 +137,9 @@ namespace POST.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("LoginId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -124,6 +153,8 @@ namespace POST.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("LoginId");
 
                     b.ToTable("Personnel");
                 });
@@ -211,6 +242,10 @@ namespace POST.Migrations
 
             modelBuilder.Entity("POST.Models.Customer", b =>
                 {
+                    b.HasOne("POST.Models.Login", null)
+                        .WithMany("Customers")
+                        .HasForeignKey("LoginId");
+
                     b.HasOne("POST.Models.Shipment", null)
                         .WithMany("Customers")
                         .HasForeignKey("ShipmentId");
@@ -221,6 +256,13 @@ namespace POST.Migrations
                     b.HasOne("POST.Models.Shipment", null)
                         .WithMany("Payments")
                         .HasForeignKey("ShipmentId");
+                });
+
+            modelBuilder.Entity("POST.Models.Personnel", b =>
+                {
+                    b.HasOne("POST.Models.Login", null)
+                        .WithMany("Personnel")
+                        .HasForeignKey("LoginId");
                 });
 
             modelBuilder.Entity("POST.Models.Shipping", b =>
@@ -241,6 +283,13 @@ namespace POST.Migrations
             modelBuilder.Entity("POST.Models.Customer", b =>
                 {
                     b.Navigation("Shippings");
+                });
+
+            modelBuilder.Entity("POST.Models.Login", b =>
+                {
+                    b.Navigation("Customers");
+
+                    b.Navigation("Personnel");
                 });
 
             modelBuilder.Entity("POST.Models.Payment", b =>

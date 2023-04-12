@@ -4,7 +4,6 @@
     ViewData["Title"] = "Shipment";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="content-wrapper">
     <p style="    margin-left: 30px;">
         <a asp-action="Create">Create New</a>
@@ -35,14 +34,14 @@
         <div class="container-fluid">
             <div class="card card-info elevation-2">
                 <div class="col-md-12">
-                    
+
                     <table id="example1" class="table table-bordered table-striped">
                         <thead>
                             <tr>
                                 <th>Ref No.</th>
                                 <th>Shipping Info</th>
                                 <th>Date Receive</th>
-                                <th>Status</th>
+
                                 <th>Delivered By</th>
                                 <th>Action</th>
                             </tr>
@@ -56,7 +55,7 @@
                                         <td>@item.Id</td>
                                         <td>@item.Infor</td>
                                         <td>@item.Date_Receive</td>
-                                        <td>@item.Status</td>
+                                        <td>@item.Delivered_By</td>
 
 
                                         <td><span class="badge bg-success">@item.Status</span></td>
@@ -81,9 +80,3 @@
 <!-- /.content-wrapper -->
       </div>
 <!-- ./wrapper -->
-
-<script>
-    $(function () {
-        $("#example1").DataTable();
-    });
-</script>

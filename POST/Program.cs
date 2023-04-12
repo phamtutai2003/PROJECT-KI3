@@ -48,6 +48,9 @@ namespace POST
 
         
             app.Run();
+            builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
+
 
         }
     }

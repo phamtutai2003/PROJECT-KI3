@@ -1,0 +1,80 @@
+﻿@model IEnumerable<POST.Models.Shipment>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Customer1/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="content-wrapper">
+   
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0"><span class="fa fa-truck"></span> Shipment Deliveries </h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Delivered</li>
+                    </ol>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card card-info elevation-2">
+                <div class="col-md-12">
+
+                    <table id="example1" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Ref No.</th>
+                                <th>Shipping Info</th>
+                                <th>Date Receive</th>
+                               
+                                <th>Delivered By</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null)
+                            {
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Infor</td>
+                                        <td>@item.Date_Receive</td>                                   
+                                        <td>@item.Delivered_By</td>
+                                        
+
+                                        <td><span class="badge bg-success">@item.Status</span></td>
+                                       
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+      </div>
+<!-- ./wrapper -->
+
+
+

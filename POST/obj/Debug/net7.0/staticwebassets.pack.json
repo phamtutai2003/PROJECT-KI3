@@ -401,6 +401,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\Hinh-nen-cute-de-thuong-cho-may-tinh.jpg",
+      "PackagePath": "staticwebassets\\images\\Hinh-nen-cute-de-thuong-cho-may-tinh.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\hinh-24-1024x576-1-780x470.jpg",
+      "PackagePath": "staticwebassets\\images\\hinh-24-1024x576-1-780x470.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\service-4.jpg",
+      "PackagePath": "staticwebassets\\images\\service-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\service-5.jpg",
+      "PackagePath": "staticwebassets\\images\\service-5.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\images\\ảnhcanva.jpg",
+      "PackagePath": "staticwebassets\\images\\ảnhcanva.jpg"
+    },
+    {
       "Id": "D:\\PROJECT-KI3\\POST\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

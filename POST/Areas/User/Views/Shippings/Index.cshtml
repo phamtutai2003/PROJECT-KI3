@@ -1,0 +1,66 @@
+﻿@model IEnumerable<POST.Models.Shipping>
+
+@{
+    ViewData["Title"] = "Shipping";
+    Layout = "~/Areas/User/Views/Shared/_UserLayout.cshtml";
+}
+
+
+
+
+
+<div class="content-wrapper">
+    <p style="    margin-left: 30px;">
+        <a asp-action="Create">Create New</a>
+    </p>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0"><span class="fa fa-truck"></span> Shipping </h1>
+                </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <table id="example1" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <td>Reference Number</td>
+                                    <th>Origin</th>
+                                    <th>Destination</th>
+                                    <th>DeliveryOption</th>
+                                    <th>Description</th>
+                                    <th>Weight (Kg) </th>                              
+                                   <th >Image</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.Origin</td>
+                                            <td>@item.Destination</td>
+                                            <td>@item.DeliveryOption</td>
+                                            <td>@item.Description</td>
+                                            <td>@item.Weight</td>
+                                            <td><img src="/images/@item.Image_Path" alt="image" width="100" height="100"></td>
+
+                                           
+                                        
+
+
+
+                                </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+          
+       
+    <!-- /.login-box -->

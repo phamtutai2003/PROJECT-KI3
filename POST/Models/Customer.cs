@@ -12,4 +12,5 @@
         public Boolean Status { get; set; }
         public ICollection<Shipping> Shippings { get; set; }
     }
+
 }

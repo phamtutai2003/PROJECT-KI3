@@ -19,15 +19,15 @@ namespace POST.Controllers
             _context = context;
         }
 
-        // GET: Shipments
+        // GET: Customer1/Shipments
         public async Task<IActionResult> Index()
         {
-              return _context.Shipment != null ? 
-                          View(await _context.Shipment.ToListAsync()) :
-                          Problem("Entity set 'POSTContext.Shipment'  is null.");
+            return _context.Shipment != null ?
+                        View(await _context.Shipment.ToListAsync()) :
+                        Problem("Entity set 'POSTContext.Shipment'  is null.");
         }
 
-        // GET: Shipments/Details/5
+        // GET: Customer1/Shipments/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Shipment == null)
@@ -45,20 +45,20 @@ namespace POST.Controllers
             return View(shipment);
         }
 
-        // GET: Shipments/Create
+        // GET: Customer1/Shipments/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Shipments/Create
+        // POST: Customer1/Shipments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Infor,Date_Receive,Status,Delivered_By")] Shipment shipment)
         {
-            if (ModelState.IsValid)
+            if (true)
             {
                 _context.Add(shipment);
                 await _context.SaveChangesAsync();
@@ -67,7 +67,7 @@ namespace POST.Controllers
             return View(shipment);
         }
 
-        // GET: Shipments/Edit/5
+        // GET: Customer1/Shipments/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Shipment == null)
@@ -83,7 +83,7 @@ namespace POST.Controllers
             return View(shipment);
         }
 
-        // POST: Shipments/Edit/5
+        // POST: Customer1/Shipments/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -95,7 +95,7 @@ namespace POST.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (true)
             {
                 try
                 {
@@ -118,7 +118,7 @@ namespace POST.Controllers
             return View(shipment);
         }
 
-        // GET: Shipments/Delete/5
+        // GET: Customer1/Shipments/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Shipment == null)
@@ -136,7 +136,7 @@ namespace POST.Controllers
             return View(shipment);
         }
 
-        // POST: Shipments/Delete/5
+        // POST: Customer1/Shipments/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -150,14 +150,15 @@ namespace POST.Controllers
             {
                 _context.Shipment.Remove(shipment);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ShipmentExists(int id)
         {
-          return (_context.Shipment?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Shipment?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
     }
 }

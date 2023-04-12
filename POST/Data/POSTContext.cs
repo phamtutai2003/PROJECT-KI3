@@ -25,5 +25,7 @@ namespace POST.Data
         public DbSet<POST.Models.Personnel> Personnel { get; set; } = default!;
 
         public DbSet<POST.Models.Shipment> Shipment { get; set; } = default!;
+
+        public DbSet<POST.Models.Login> Login { get; set; } = default!;
     }
 }

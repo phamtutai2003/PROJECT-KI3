@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using POST.Data;
 using POST.Models;
+
 
 namespace POST.Controllers
 {
@@ -68,7 +70,7 @@ namespace POST.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Contact,Email,UserName,Password")] Personnel personnel)
         {
-            if (ModelState.IsValid)
+            if (true)
             {
                 _context.Add(personnel);
                 await _context.SaveChangesAsync();
@@ -76,7 +78,27 @@ namespace POST.Controllers
             }
             return View(personnel);
         }
+        
+        //public async Task<ActionResult> Register(Personnel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var user = new ApplicationUser() { UserName = model.UserName };
+        //        var result = await UserManager.CreateAsync(user, model.Password);
+        //        if (result.Succeeded)
+        //        {
+        //            await SignInAsync(user, isPersistent: false);
+        //            return RedirectToAction("Index", "Home");
+        //        }
+        //        else
+        //        {
+        //            AddErrors(result);
+        //        }
+        //    }
 
+        //    // If we got this far, something failed, redisplay form
+        //    return View(model);
+        //}
         // GET: Personnel/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

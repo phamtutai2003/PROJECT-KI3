@@ -1,0 +1,75 @@
+﻿@model POST.Models.Login
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Logins/Views/Shared/_LoginLayout.cshtml";
+}
+
+
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <!-- /.login-logo -->
+        <div class="card card-outline card-success">
+            <div class="card-header text-center">
+                <a href="index.html" class="brand-link">
+                    <img src="~/Admin/img/logo.png" alt="DSMS Logo" width="200">
+                </a>
+            </div>
+            <div class="card-body">
+
+                <form asp-action="Create">
+                    <div class="input-group mb-3">
+                        <input type="text" asp-for="username" class="form-control" placeholder="Username">
+                        <span asp-validation-for="username" class="text-danger"></span>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-user"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" asp-for="password" class="form-control" placeholder="Password">
+                        <span asp-validation-for="password" class="text-danger"></span>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="icheck-primary">
+                                <input type="checkbox" id="remember">
+                                <label for="remember">
+                                    Remember Me
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-block" style="background-color: rgba(116,206,76);">Sign In</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                </form>
+
+                <div class="social-auth-links text-center mt-2 mb-3">
+                    <a href="check.html" class="btn btn-block" style="background-color: rgba(116,206,76);">
+                        <i class="fa fa-money-bill mr-2"></i> Check Shipping Cost
+                    </a>
+                    <a href="status.html" class="btn btn-block" style="background-color: rgba(116,206,76);" style="background-color: rgba(116,206,76);">
+                        <i class="fa fa-info mr-2"></i> Check Delivery Status
+                    </a>
+                </div>
+
+                <p class="mb-0">
+                    <a href="register.html" class="text-center">Register a new account</a>
+                </p>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.login-box -->
+</body>
